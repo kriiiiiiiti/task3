@@ -1,0 +1,22 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    background-color: white; /* Set background color */
+    color: green;
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 12px; /* Further adjust font size for even smaller screens */
+    }
+}
